@@ -1,0 +1,29 @@
+.text-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2bad9cef;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.text-content .btn:hover {
+    background-color: #2bad9cef;
+}
+.image-content {
+    max-width: 45%;
+}
+.image-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.container {
+    width: calc(100% - 100px);
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
