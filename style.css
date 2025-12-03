@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 10px #2bad9cef;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-left: 100px;
+}
